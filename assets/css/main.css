@@ -1,20 +1,14 @@
+body {
+  background: #bbd2c5;
+  background: -webkit-linear-gradient(to bottom, #536976, #bbd2c5);
+  background: linear-gradient(to bottom, #536976, #bbd2c5);
+  background-attachment: fixed;
+}
 .center-text {
   text-align: center;
 }
 
 header {
-  background: #bbd2c5; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #536976,
-    #bbd2c5
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #536976,
-    #bbd2c5
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   height: 100vh;
 }
 
@@ -26,15 +20,34 @@ header {
 }
 
 .info-section {
-  background: #bbd2c5;
+  /* background: #bbd2c5; */
   height: 100vh;
 }
 
-.row-width {
+.row-dimension {
   width: 80vw;
+  height: 100vh;
   margin: auto;
 }
 
 .card-width {
   width: 40vw;
+}
+
+.card-img-top {
+  width: 35%;
+  display: block;
+  margin: 60px auto 25px;
+}
+
+.info-card {
+  background: rgba(34, 30, 31, 0.65);
+  color: white;
+}
+
+section .card-text {
+  margin: 20px;
+  padding: 20px 0;
+  text-align: justify;
+  border-top: solid 1px grey;
 }
