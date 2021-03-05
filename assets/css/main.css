@@ -27,6 +27,16 @@ body {
   margin: auto;
 }
 
+#info-section {
+  padding-top: 50px;
+}
+
+.info-card {
+  background: rgba(34, 30, 31, 1);
+  color: white;
+  min-height: 700px;
+}
+
 .card-width {
   width: 40vw;
 }
@@ -45,13 +55,15 @@ body {
   background-color: black;
 }
 
-#info-section {
-  margin-top: 50px;
+#student-section {
+  padding-top: 50px;
 }
 
-.info-card {
+.student-card {
+  padding-top: 5px;
   background: rgba(34, 30, 31, 1);
   color: white;
+  height: 750px;
 }
 
 section .card-text {
@@ -82,14 +94,12 @@ section .card-text {
 .flip-card-back {
   position: absolute;
   /* width: 100%; */
-  height: 800px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .flip-card-front {
   color: black;
-  height: 800px;
 }
 
 .flip-card-back {
@@ -98,7 +108,7 @@ section .card-text {
 }
 
 .social-icons {
-  width: 70px;
+  width: 50px;
   margin: 10px 0;
 }
 
@@ -112,6 +122,13 @@ section .card-text {
   align-items: center;
 }
 
-.card {
-  height: 800px;
+@media (max-width: 767px) {
+  .social-wrap {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .student-img {
+    width: 50%;
+  }
 }
