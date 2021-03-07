@@ -242,7 +242,7 @@ img.turn {
 }
 img.turnb {
   /* position: absolute; */
-  transform: translate(322px,-370px);
+  transform: translate(322px,-350px);
   width: 100px;
   backface-visibility: hidden;
 }
