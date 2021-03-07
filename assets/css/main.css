@@ -236,13 +236,13 @@ overflow: auto;
 
 img.turn {
   position: absolute;
-  transform: translate(-32px,-450px);
+  transform: translate(-32px,-370px);
   width: 100px;
   backface-visibility: hidden;
 }
 img.turnb {
   /* position: absolute; */
-  transform: translate(322px,-430px);
+  transform: translate(322px,-370px);
   width: 100px;
   backface-visibility: hidden;
 }
