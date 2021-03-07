@@ -82,6 +82,7 @@ body {
   /* background-repeat: repeat; */
   background-attachment: fixed;
   font-family             : 'source_code_proregular';
+  overflow: overlay;
 }
 .header-height {
   margin: auto;
@@ -159,14 +160,14 @@ section .card-text {
   border-top: solid 1px grey;
 }
 section .student-text {
-  height: 200px;
+  height: 240px;
   /* background: rgba(34, 30, 31, 0.7); */
   margin: 10px 20px 20px 20px;
   padding: 20px;
   text-align: left;
   border-top: solid 1px grey;
   border-radius: 2%;
-overflow: auto;
+overflow: hidden;
 }
 #student-section {
   padding-top: 50px;
