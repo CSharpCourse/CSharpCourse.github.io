@@ -127,7 +127,7 @@ a.header {
   flex-wrap: wrap;
 }
 .info-card {
-  background: rgba(34, 30, 31, 0.75);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
   width: 40vw;
   min-width: 300px;
@@ -160,7 +160,7 @@ section .card-text {
 }
 section .student-text {
   height: 200px;
-  background: rgba(34, 30, 31, 0.975);
+  background: rgba(34, 30, 31, 0.7);
   margin: 10px 20px 20px 20px;
   padding: 20px;
   text-align: left;
@@ -180,7 +180,7 @@ overflow: auto;
 }
 .student-card {
   padding-top: 5px;
-  background: rgba(34, 30, 31, 0);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
   height: 675px;
 }
