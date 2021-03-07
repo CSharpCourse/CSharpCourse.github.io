@@ -127,7 +127,7 @@ a.header {
   flex-wrap: wrap;
 }
 .info-card {
-  background: rgba(34, 30, 31, .75);
+  background: rgba(34, 30, 31, 0.75);
   color: white;
   width: 40vw;
   min-width: 300px;
@@ -153,10 +153,21 @@ a.header {
   text-align: center;
 }
 section .card-text {
-  margin: 20px;
-  padding: 20px 0;
-  text-align: justify;
+  
+  margin: 20px  40px;
+  padding: 20px  0;
+  text-align: left;
   border-top: solid 1px grey;
+}
+section .student-text {
+  height: 180px;
+  background: rgba(34, 30, 31, 0.975);
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  border: solid 1px grey;
+  border-radius: 2%;
+overflow: auto;
 }
 #student-section {
   padding-top: 50px;
@@ -170,9 +181,9 @@ section .card-text {
 }
 .student-card {
   padding-top: 5px;
-  background: rgba(34, 30, 31, .75);
+  background: rgba(34, 30, 31, 0);
   color: white;
-  height: 650px;
+  height: 675px;
 }
 .student-img {
   width: 80%;
@@ -190,7 +201,7 @@ section .card-text {
 }
 .scene {
   width: 400px;
-  height: 650px;
+  height: 675px;
   perspective: 600px;
   margin: 0 0 5vh 0;
 }
@@ -223,24 +234,24 @@ section .card-text {
   flex-direction: column;
   align-items: center;
 }
-.turn {
-  position: absolute;
-  /* transform: translate(0%,-200px); */
-  /* transform: scale(.2) rotate(180deg); */
-/* float: right; */
 
-}
 img.turn {
-  transform: translate(-32px,-430px);
-  width: 100px;;
-  opacity: 1;
+  position: absolute;
+  transform: translate(-32px,-450px);
+  width: 100px;
+  backface-visibility: hidden;
 }
-/* @media (max-width: 767px) {
+img.turnb {
+  /* position: absolute; */
+  transform: translate(322px,-430px);
+  width: 100px;
+  backface-visibility: hidden;
+}
+
   .social-wrap {
     flex-direction: row;
     justify-content: space-around;
   }
-} */
   @media (max-width: 612px){
 
     .section-height {
