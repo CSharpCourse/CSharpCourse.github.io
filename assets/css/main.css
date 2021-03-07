@@ -164,7 +164,7 @@ section .student-text {
   margin: 10px 20px 20px 20px;
   padding: 20px;
   text-align: left;
-  border: solid 1px grey;
+  border-top: solid 1px grey;
   border-radius: 2%;
 overflow: auto;
 }
