@@ -152,17 +152,16 @@ a.header {
 .center-text {
   text-align: center;
 }
-section .card-text {
-  
+section .card-text { 
   margin: 20px  40px;
   padding: 20px  0;
   text-align: left;
   border-top: solid 1px grey;
 }
 section .student-text {
-  height: 180px;
+  height: 200px;
   background: rgba(34, 30, 31, 0.975);
-  margin: 20px;
+  margin: 10px 20px 20px 20px;
   padding: 20px;
   text-align: left;
   border: solid 1px grey;
@@ -186,9 +185,9 @@ overflow: auto;
   height: 675px;
 }
 .student-img {
-  width: 80%;
+  width: 70%;
   display: block;
-  margin: 60px auto 25px;
+  margin: 40px auto 5px;
   border-radius: 2% 2% 2% 50%;
 }
 .card {
