@@ -172,7 +172,7 @@ section .card-text {
   padding-top: 5px;
   background: rgba(34, 30, 31, .75);
   color: white;
-  height: 750px;
+  height: 650px;
 }
 .student-img {
   width: 80%;
@@ -190,7 +190,7 @@ section .card-text {
 }
 .scene {
   width: 400px;
-  height: 750px;
+  height: 650px;
   perspective: 600px;
   margin: 0 0 5vh 0;
 }
