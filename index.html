@@ -83,7 +83,7 @@
           <div class="scene">
             <div class="card">
               <div class="card__face card__face--front">
-                <div class="student-card rounded-border boxshadow ">
+                <div id="cardFront" class="student-card rounded-border boxshadow ">
                   <img class="turn" src="./assets/images/FlipCard.png" />
                   <div class="card-body">
                     <img src="./assets/images/avatars/Andreas.png" class="student-img" alt="...">
@@ -153,18 +153,13 @@
           <div class="scene">
             <div class="card">
               <div class="card__face card__face--front">
-                <div class="student-card rounded-border boxshadow ">
+                <div class="student-card rounded-border boxshadow  ">
                   <img class="turn" src="./assets/images/FlipCard.png" />
                   <div class="card-body">
                     <img src="./assets/images/avatars/Dries.png" class="student-img" alt="...">
                     <h2 class="center-text">Dries Maes</h2>
 
-                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
-                      grote
-                      rol. Alle
-                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
-                      meer
-                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+                    <p class="student-text">Dries is awesome.</p>
                   </div>
 
                 </div>
@@ -700,6 +695,28 @@
     cards.forEach((card) => {
       card.addEventListener('click', () => {
         card.classList.toggle('is-flipped');
+        
+        // card.classList.toggle(hover);
+        
+      });
+    });
+
+    let cardFronts = document.querySelectorAll('.student-card');
+    let cardBacks = document.querySelectorAll('.student-cardb');
+    cardFronts.forEach((cardFront) => {
+      cardFront.addEventListener('mouseover', () => {
+          cardFront.classList.toggle('set-background');
+      });
+      cardFront.addEventListener('mouseout', () => {
+          cardFront.classList.toggle('set-background');
+      });
+    });
+    cardBacks.forEach((cardBack) => {
+      cardBack.addEventListener('mouseover', () => {
+          cardFront.classList.toggle('set-background');
+      });
+      cardBack.addEventListener('mouseout', () => {
+          cardFront.classList.toggle('set-background');
       });
     });
   </script>
