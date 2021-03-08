@@ -162,8 +162,8 @@ section .card-text {
 section .student-text {
   height: 240px;
 vertical-align:middle;
-  margin: 10px 20px 20px 20px;
-  padding: 20px;
+  margin: 10px 40px 20px 20px;
+  padding: 20px 0px;
   text-align: left;
   border-top: solid 1px grey;
   border-radius: 2%;
@@ -237,13 +237,13 @@ overflow: hidden;
 
 img.turn {
   position: absolute;
-  transform: translate(-32px,-350px);
+  transform: translate(-32px,-20px);
   width: 100px;
   backface-visibility: hidden;
 }
 img.turnb {
-  /* position: absolute; */
-  transform: translate(302px,-330px);
+  position: absolute;
+  transform: translate(302px,-20px);
   width: 100px;
   backface-visibility: hidden;
 }
