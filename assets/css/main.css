@@ -157,7 +157,8 @@ h2 {
   transform: scale(1.05);  
 }
 .student-card:hover{
-  background-color:rgba(34, 30, 31, 0.9) ;
+  /* background-color:rgba(34, 30, 31, 0.9) ; */
+  border: 1px solid wheat;
 }
 .card__face {
   position: absolute;
