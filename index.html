@@ -5,21 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  </link>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-
-  <!-- extra? -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
-    crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
   <link href="./assets/css/main.css" rel="stylesheet">
   </link>
   <title>Document</title>
@@ -27,62 +13,65 @@
 
 <body>
   <!-- header -->
-  <header class="justify-content-center d-flex flex-column section-height">
-    <div class="card header-card justify-content-center d-flex">
-      <div class="card-body">
-        <h5 class="card-title center-text">06/04/2021</h5>
-        <hr />
-        <h3 class="card-text center-text">Digitale Jobdag</h3>
-        <hr />
-        <h5 class="card-text center-text">.NET Developers</h5>
+  <header class="header-height">
+    <div class="header-card rounded-border boxshadow center">
+      <a class="header" href="#info-section">
+        <div>
+          <h5>06/04/2021</h5>
+          <hr />
+          <h3>Digitale Jobdag</h3>
+          <hr />
+          <h5>.NET Developers</h5>
+        </div>
+      </a>
+    </div>
+    <a class="Down-Arrow" href="#info-section">
+      <div>
+        <img src="./assets/images/arrow.svg" class="img-arrow" alt="Down-Arrow" />
       </div>
-    </div>
-
-    <div class="justify-content-center d-flex">
-      <a href="#info-section">
-        <img src="./assets/images/arrow.svg" class="img-arrow" alt="Down-Arrow" /> </a>
-    </div>
+    </a>
   </header>
 
+
   <!-- info -->
+  
+    <section id="info-section" class="section-height">
+      <div>
+        <div class="info-container">
+          <div class="info-card rounded-border boxshadow ">
+            <img src="./assets/images/school.svg" class="card-img-top" alt="Afbeelding refererend naar de Opleiding">
+            <div>
+              <p class="card-text">De opleiding wordt georganiseerd door VDAB in samenwerking met Obelisk en MultiMedi
+                met
+                het doel de cursisten om te scholen tot junior mobiele applicatie ontwikkelaars. Motivatie speelt hier
+                dan
+                ook een heel grote rol. Alle cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie.
+                Uit
+                het ruime aanbod van meer dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+            </div>
+          </div>
 
-  <section id="info-section" class="section-height">
-    <div class="row row-dimension d-flex">
-      <div class="col-lg-6 align-self-center">
-        <div class="card info-card">
-          <img src="./assets/images/school.svg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h2 class="center-text">De Opleiding</h2>
-            <p class="card-text">De opleiding wordt georganiseerd door VDAB in samenwerking met Obelisk en MultiMedi met
-              het doel de cursisten om te scholen tot junior mobiele applicatie ontwikkelaars. Motivatie speelt hier dan
-              ook een heel grote rol. Alle cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit
-              het ruime aanbod van meer dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+
+          <div class="info-card rounded-border boxshadow ">
+            <img src="./assets/images/code.svg" class="card-img-top" alt="Afbeelding refererend naar het Leerprogramma">
+            <div class="card-body">
+              <p class="card-text">We leerden c#, HTML, blablabla ... king met Obelisk en MultiMrganiseerd door VDAB in
+                samenweredi met het doel de cursisten om te scholen tot junior mobiele applicatie ontwikkelaars.
+                Motivatie
+                speelt hier dan ook een heel grote rol. Alle cursisten werden vooraf gescreend, getest en bevraagd naar
+                hun motivatie. Uit het ruime aanbod van meer dan 100 kandidaten zijn de bovenstaande cursisten
+                geselecteerd.lt hier dan ook een heel grote roelt hier dan ook een heel grote rol. Alle cursisten werden
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
-
-      <div class="col-lg-6 align-self-center">
-        <div class="card info-card">
-          <img src="./assets/images/code.svg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h2 class="center-text">Leerprogramma</h2>
-            <p class="card-text">We leerden c#, HTML, blablabla ... king met Obelisk en MultiMrganiseerd door VDAB in
-              samenweredi met het doel de cursisten om te scholen tot junior mobiele applicatie ontwikkelaars. Motivatie
-              speelt hier dan ook een heel grote rol. Alle cursisten werden vooraf gescreend, getest en bevraagd naar
-              hun motivatie. Uit het ruime aanbod van meer dan 100 kandidaten zijn de bovenstaande cursisten
-              geselecteerd.lt hier dan ook een heel grote roelt hier dan ook een heel grote rol. Alle cursisten werden
-
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="justify-content-center d-flex">
+      <div class="Down-Arrow">
         <a href="#student-section">
-          <img src="./assets/images/arrow.svg" class="img-arrow" alt="Down-Arrow" /> </a>
+          <img src="./assets/images/arrow.svg" class="img-arrow center" alt="Down-Arrow" /> </a>
       </div>
-    </div>
-  </section>
+    </section>
+  
 
 
 
@@ -95,19 +84,22 @@
 
   <!-- students section -->
   <section id="student-section">
-    <div class="container-fluid">
-      <div class="row row-dimension justify-content-start">
+    <div class="container-students">
+      <div class="students">
 
         <!-- START Andreas -->
-        <div class="col-md-6 col-xl-4  col-xxl-3 align-self-center ">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <div class="student-card">
-                  <img src="./assets/images/avatars/Seba.png" class="student-img" alt="...">
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
                   <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
-                    <p class="card-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel grote
+                    <img src="./assets/images/avatars/No-Avatar.png" class="student-img" alt="...">
+
+                    <h2 class="center-text">Andreas</h2>
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
                       rol. Alle
                       cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
                       meer
@@ -115,11 +107,12 @@
                   </div>
                 </div>
               </div>
-              <div class="flip-card-back">
-                <div class="student-card">
-                  <img src="./assets/images/Seba.jpg" class="student-img" alt="...">
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Andreas.jpg" class="student-img" alt="...">
                   <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
+                    <h2 class="center-text">Andreas</h2>
                     <div class="social-wrap">
                       <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
                       <img src="./assets/images/github.svg" alt="github" class="social-icons">
@@ -134,15 +127,19 @@
         <!-- END Andreas -->
 
         <!-- START Diederik -->
-        <div class="col-md-6 col-xl-4  col-xxl-3 align-self-center ">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <div class="student-card">
-                  <img src="./assets/images/avatars/Seba.png" class="student-img" alt="...">
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Diederick.png" class="student-img" alt="...">
+
                   <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
-                    <p class="card-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel grote
+                    <h2 class="center-text">Diederik</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
                       rol. Alle
                       cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
                       meer
@@ -150,11 +147,12 @@
                   </div>
                 </div>
               </div>
-              <div class="flip-card-back">
-                <div class="student-card">
-                  <img src="./assets/images/Seba.jpg" class="student-img" alt="...">
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Diederick.jpg" class="student-img" alt="...">
                   <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
+                    <h2 class="center-text">Diederik</h2>
                     <div class="social-wrap">
                       <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
                       <img src="./assets/images/github.svg" alt="github" class="social-icons">
@@ -169,27 +167,31 @@
         <!-- END Diederik -->
 
         <!-- START Dries -->
-        <div class="col-md-6 col-xl-4  col-xxl-3 align-self-center ">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <div class="student-card">
-                  <img src="./assets/images/avatars/Seba.png" class="student-img" alt="...">
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
                   <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
-                    <p class="card-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel grote
+                    <img src="./assets/images/avatars/Dries.png" class="student-img" alt="...">
+                    <h2 class="center-text">Dries Maes</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
                       rol. Alle
                       cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
                       meer
                       dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
                   </div>
+
                 </div>
               </div>
-              <div class="flip-card-back">
-                <div class="student-card">
-                  <img src="./assets/images/Seba.jpg" class="student-img" alt="...">
-                  <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Dries.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Dries Maes</h2>
                     <div class="social-wrap">
                       <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
                       <img src="./assets/images/github.svg" alt="github" class="social-icons">
@@ -204,27 +206,32 @@
         <!-- END Dries -->
 
         <!-- START Emma -->
-        <div class="col-md-6 col-xl-4  col-xxl-3 align-self-center ">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <div class="student-card">
-                  <img src="./assets/images/avatars/Seba.png" class="student-img" alt="...">
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Emma.png" class="student-img" alt="...">
+
                   <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
-                    <p class="card-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel grote
+                    <h2 class="center-text">Emma Danckaert</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
                       rol. Alle
                       cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
                       meer
                       dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
                   </div>
+
                 </div>
               </div>
-              <div class="flip-card-back">
-                <div class="student-card">
-                  <img src="./assets/images/Seba.jpg" class="student-img" alt="...">
-                  <div class="card-body">
-                    <h2 class="center-text">Sebastiaan</h2>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Emma.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Emma Danckaert</h2>
                     <div class="social-wrap">
                       <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
                       <img src="./assets/images/github.svg" alt="github" class="social-icons">
@@ -239,44 +246,484 @@
         <!-- END Emma -->
 
         <!-- START Hoon -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Hoon.png" class="student-img" alt="...">
 
+                  <div class="card-body">
+                    <h2 class="center-text">Hoon Meskens</h2>
+
+                    <p class="student-text">Mijn naam is Hoon. Op mijn 22e heb ik mijn studies handelsingenieur moeten stopzetten. Ik zou deze kans willen aangrijpen om alsnog mijn verstandelijke capaciteiten aan te wenden en mezelf navenant te ontplooien. Ik ben in staat om snel en veel te leren en beschik over een sterk wiskundig brein en analytisch inzicht.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/avatars/No-Avatar.png" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Hoon Meskens</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Hoon -->
 
         <!-- START Jens -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Jens.png" class="student-img" alt="...">
 
+                  <div class="card-body">
+                    <h2 class="center-text">Jens</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
+                      rol. Alle
+                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
+                      meer
+                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Jens.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Jens</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Jens -->
 
         <!-- START Joyce -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Joyce.png" class="student-img" alt="...">
 
+                  <div class="card-body">
+                    <h2 class="center-text">Joyce</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
+                      rol. Alle
+                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
+                      meer
+                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Joyce.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Joyce</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Joyce -->
 
         <!-- START Kobe -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/No-Avatar.png" class="student-img" alt="...">
 
+                  <div class="card-body">
+                    <h2 class="center-text">Kobe Delobelle</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
+                      rol. Alle
+                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
+                      meer
+                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/avatars/No-Avatar.png" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Kobe Delobelle</h2>
+                    <div class="student-text social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Kobe -->
 
         <!-- START Nick -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Nick.png" class="student-img" alt="...">
+                  <div class="card-body">
+                    <h2 class="center-text">Nick Van Royen</h2>
 
+                    <p class="student-text">Ik ben Nick, 33 jaar uit Belsele. Op weg om een gedreven software
+                      ontwikkelaar
+                      te worden. Na jaren zoeken naar een echte roeping, geloof ik die eindelijk gevonden te hebben.
+                      Mijn huidige vaardigheden omvatten JavaScript en basiskennis van C# en ik werk er hard aan om deze
+                      uit te breiden. Ik kijk er naar uit om mijn vaardigheden in praktijk om te zetten.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Nick.jpg" class="student-img" alt="...">
+
+                  <div class="card-body"><h2 class="center-text">Nick Van Royen</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Nick -->
 
         <!-- START Pieter -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/No-Avatar.png" class="student-img" alt="...">
+                  <div class="card-body">
+                    <h2 class="center-text">Pieter</h2>
 
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
+                      rol. Alle
+                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
+                      meer
+                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Pieter.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Pieter</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Pieter -->
 
         <!-- START Seba -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Seba.png" class="student-img" alt="...">
 
+                  <div class="card-body">
+                    <h2 class="center-text">Sebastiaan-Willem Kesteloot</h2>
+
+                    <p class="student-text">Hallo! Mijn naam is Sebastiaan-Willem en zoals vele anderen ben ik op zoek
+                      naar
+                      werk.
+                      Buiten mijn steeds groeiende kennis van informatica en technische vaardigheden
+                      ben ik leergierig, praktisch, communicatief, rationeel ingesteld en hou mezelf graag
+                      creatief bezig.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Seba.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Sebastiaan</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Seba -->
 
         <!-- START Simon -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Simon.png" class="student-img" alt="...">
 
+                  <div class="card-body">
+                    <h2 class="center-text">Simon Van Tittelboom</h2>
+
+                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
+                      grote
+                      rol. Alle
+                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
+                      meer
+                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Simon.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Simon Van Tittelboom</h2>
+                    <div class="social-wrap">
+                      <img src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons">
+                      <img src="./assets/images/github.svg" alt="github" class="social-icons">
+                      <img src="./assets/images/globe.svg" alt="linkedin" class="social-icons">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Simon -->
 
         <!-- START Ward -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Ward.png" class="student-img" alt="...">
+                  
+                  <div class="card-body">
+                    
+                    <h2 class="center-text">Ward Impe</h2>
+                    <p class="student-text">Hallo, ik ben Ward, 46 jaar, en ouder van een prachtige dochter van 5.
+                      Ik werkte laatste 20j fulltime als DJ waar ik mijn people skills kon ontwikkelen; diplomatisch,
+                      sociaal, maar ook voldoende assertief.
+                      Ook ben ik al sinds 1999 beta tester. Dus testing en troubleshooting zitten me al behoorlijk in de
+                      vingers. Logica en analytische skills maakte ik me eigen.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Ward_Impe.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Ward Impe</h2>
+                    <div class="social-wrap">
+                      <a target="_blank" href="https://www.linkedin.com/in/ward-impe/"><img
+                          src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons"></a>
+                      <a target="_blank" href="https://github.com/Impesoft"><img src="./assets/images/github.svg"
+                          alt="github" class="social-icons"></a>
+                      <a target="_blank" href="https://www.impesoft.org/CV/"><img src="./assets/images/globe.svg"
+                          alt="linkedin" class="social-icons"></a>
 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- END Ward -->
+        <!-- START Michiel -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Michiel.png" class="student-img" alt="...">
+
+                  <div class="card-body">
+                    <h2 class="center-text">Michiel Wouters</h2>
+
+                    <p class="student-text">Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed
+                      veroeros
+                      lorem et blandit adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien
+                      sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora
+                      torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Michiel.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Michiel Wouters</h2>
+                    <div class="social-wrap">
+                      <a target="_blank" href="https://www.linkedin.com/in/ward-impe/"><img
+                          src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons"></a>
+                      <a target="_blank" href="https://github.com/Impesoft"><img src="./assets/images/github.svg"
+                          alt="github" class="social-icons"></a>
+                      <a target="_blank" href="https://www.impesoft.org/CV/"><img src="./assets/images/globe.svg"
+                          alt="linkedin" class="social-icons"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Michiel -->
+        <!-- START Marieke -->
+        <div class="student">
+          <div class="scene">
+            <div class="card">
+              <div class="card__face card__face--front">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turn" src="./assets/images/FlipCard.png" />
+                  <img src="./assets/images/avatars/Marieke.png" class="student-img" alt="...">
+
+                  <div class="card-body">
+                    <h2 class="center-text">Marieke Verhulsdonck</h2>
+
+                    <p class="student-text">Als trajectbegeleider is het mijn taak via sollicitatietrainingen en
+                      individuele en collectieve trajectbegeleidingsmomenten de toekomstige .net developers te coachen
+                      naar een duurzame tewerkstelling. Ik bereid de cursisten zo goed mogelijk voor op de arbeidsmarkt
+                      door te focussen op zelfredzaamheid, een open feedbackcultuur en communicatie in het algemeen.</p>
+                  </div>
+
+                </div>
+              </div>
+              <div class="card__face card__face--back">
+                <div class="student-card rounded-border boxshadow ">
+                  <img class="turnb" src="./assets/images/FlipCardb.png" />
+                  <img src="./assets/images/Marieke.jpg" class="student-img" alt="...">
+                  <div class="card-body"><h2 class="center-text">Marieke Verhulsdonck</h2>
+                    <div class="social-wrap">
+                      <a target="_blank" href="https://www.linkedin.com/in/ward-impe/"><img
+                          src="./assets/images/linkedin.svg" alt="linkedin" class="social-icons"></a>
+                      <a target="_blank" href="https://github.com/Impesoft"><img src="./assets/images/github.svg"
+                          alt="github" class="social-icons"></a>
+                      <a target="_blank" href="https://www.impesoft.org/CV/"><img src="./assets/images/globe.svg"
+                          alt="linkedin" class="social-icons"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Marieke -->
 
       </div>
     </div>
   </section>
+<section class="form-height">
+  <div class="form-card rounded-border boxshadow center">
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mrgongkp" method="post">
+    <h1>Registeer je voor de jobdag</h1>
+    <fieldset id="fs-frm-inputs">
+      <div class="form-control">
+        <label for="company-name">Bedrijf</label>
+        <input type="text" name="company" id="company-name" placeholder="Naam van het bedrijf" required> 
+      </div>
+      <div class="form-control">
+      <label for="full-name">Naam</label>
+      <input type="text" name="name" id="full-name" placeholder="Voor en achternaam" required> 
+    </div>
+    <div class="form-control">
+      <label for="email-address">Email</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required>
+    </div>
+      <div class="form-control">
+      <label for="message">Bericht</label>
+      <textarea rows="5" name="message" id="message" placeholder="Schrijf hier uw bericht." required></textarea>
+    </div>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+
+    <input class="form-button" type="submit" value="Verzenden" disabled>
+  </form>
+</div>
+</section>
+
+  <footer>
+
+  </footer>
+  <script>
+    let cards = document.querySelectorAll('.card');
+    // });
+    cards.forEach((card) => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('is-flipped');
+      });
+    });
+  </script>
 </body>
 
 </html>

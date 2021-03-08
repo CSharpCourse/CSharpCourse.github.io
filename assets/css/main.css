@@ -1,112 +1,172 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html { 	scroll-behavior: smooth;  }
+
+/* remove all browser margin/padding  */
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 body {
-  background: #bbd2c5;
-  background: -webkit-linear-gradient(to bottom, #536976, #bbd2c5);
-  background: linear-gradient(to bottom, #536976, #bbd2c5);
+  font-size: 18px;
+  background-image: url("../images/1657858.jpg");
+  background-size:cover;
+  background-position: bottom center;
   background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+  overflow: overlay;
+}
+.header-height {
+  margin: auto;
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+.header-card {
+  font-size: 2rem;
+  width: 20vw;
+  margin: auto;
+  padding: 50px;
+  background-color: rgba(34, 30, 31, .5);
+  color: white;
+}
+
+a.header {
+  text-decoration: none;
+  width: fit-content;
+  color:#fff;
+  margin: auto;
+}
+
+.rounded-border {
+  border-radius: 2%;
+}
+
+.boxshadow {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Down-Arrow {
+  display: flexbox;
+  margin: auto auto 5vh;
+}
+
+.info-container {
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.info-card {
+  background: rgba(34, 30, 31, 0.7);
+  color: white;
+  width: 40vw;
+  min-width: 300px;
+  margin: 50px auto 0;
+}
+.card-img-top {
+  width: 20%;
+  display: block;
+  margin: 60px auto 25px;
+}
+.section-height {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+.center {
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
 }
 .center-text {
   text-align: center;
 }
-
-.img-arrow {
-  margin: 50px;
+section .card-text { 
+  margin: 20px  40px;
+  padding: 20px  0;
+  text-align: left;
+  border-top: solid 1px grey;
 }
-.header-card {
-  margin: auto;
-  padding: 50px;
-  background-color: rgba(34, 30, 31, 0.65);
-  color: white;
+section .student-text {
+  height: 240px;
+vertical-align:middle;
+  margin: 10px 30px;
+  padding: 10px 0px;
+  text-align: left;
+  border-top: solid 1px grey;
+overflow: hidden;
 }
-
-.section-height {
-  min-height: 100vh;
-}
-
-.row-dimension {
-  width: 80vw;
-  margin: auto;
-}
-
-#info-section {
-  padding-top: 50px;
-}
-
-.info-card {
-  background: rgba(34, 30, 31, 1);
-  color: white;
-  min-height: 700px;
-}
-
-.card-width {
-  width: 40vw;
-}
-
-.card-img-top {
-  width: 35%;
-  display: block;
-  margin: 60px auto 25px;
-}
-
-.student-img {
-  width: 80%;
-  display: block;
-  margin: 60px auto 25px;
-  border-radius: 2%;
-  background-color: black;
-}
-
 #student-section {
   padding-top: 50px;
 }
-
+.students {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .student-card {
   padding-top: 5px;
-  background: rgba(34, 30, 31, 1);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
-  height: 750px;
+  height: 625px;
 }
-
-section .card-text {
-  margin: 20px;
-  padding: 20px 0;
-  text-align: justify;
-  border-top: solid 1px grey;
+.student-img {
+  width: 70%;
+  display: block;
+  margin: 40px auto 5px;
+  border-radius: 10% 10% 10% 50%;
 }
-
-.flip-card {
-  background-color: transparent;
-  perspective: 1000px;
+h2 {
+  font-size: 1.5rem;
 }
-
-.flip-card-inner {
+.card {
+  width: 100%;
+  height: fit-content;
   position: relative;
-  /* width: 100%; */
-  height: 800px;
-  transition: transform 0.6s;
+  transition: transform 1s;
   transform-style: preserve-3d;
+  margin: auto;
 }
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.scene {
+  width: 380px;
+  height: 625px;
+  perspective: 600px;
+  margin: 0 10px 5vh 10px;
 }
-
-.flip-card-front,
-.flip-card-back {
+.card__face {
   position: absolute;
-  /* width: 100%; */
-  -webkit-backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
   backface-visibility: hidden;
 }
-
-.flip-card-front {
-  color: black;
+.card__face--back {
+  transform: rotateY( 180deg );
 }
-
-.flip-card-back {
-  color: white;
-  transform: rotateY(180deg);
+.card.is-flipped {
+  transform: rotateY(-180deg);
 }
-
+.student {
+  margin: auto;
+}
 .social-icons {
   width: 50px;
   margin: 10px 0;
@@ -114,21 +174,90 @@ section .card-text {
 
 .social-wrap {
   border-top: solid 1px grey;
-  margin-top: 20px;
-  padding-top: 20px;
+  margin: 10px 30px;
+  padding: 10px 0px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-@media (max-width: 767px) {
-  .social-wrap {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .student-img {
-    width: 50%;
-  }
+img.turn {
+  position: absolute;
+  transform: translate(-32px,-20px);
+  width: 100px;
+  backface-visibility: hidden;
 }
+img.turnb {
+  position: absolute;
+  transform: translate(302px,-20px);
+  width: 100px;
+  backface-visibility: hidden;
+}
+
+  
+  @media (max-width: 612px){
+
+    .section-height {
+      height: fit-content;
+    }
+  }
+  .form-height {
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .form-card {
+    font-size: 2rem;
+    width: 30vw;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(34, 30, 31, .5);
+    color: white;
+  }
+  .form-control{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px 0;
+
+  }
+  #fs-frm-inputs{
+    border-top: 1px solid grey;
+    margin-top: 20px;
+  }
+  .form-control label{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    border: none;
+  }
+  .form-control input,textarea{
+    background: rgba(34, 30, 31, .5);
+color: white;
+border: none;
+resize: none;
+font-size: 1rem;
+padding: 5px;
+
+  }
+  .form-button{
+    background: rgba(34, 30, 31, .5);
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+    border: 1px solid rgba(34, 30, 31, 0);
+    
+    
+  }
+  .form-button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    border: 1px solid rgba(34, 30, 31, .5);
+    cursor: pointer;
+  }
+ 
