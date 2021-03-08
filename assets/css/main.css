@@ -151,6 +151,13 @@ h2 {
   height: 625px;
   perspective: 600px;
   margin: 0 10px 5vh 10px;
+  transition: 0.2s ease-in-out;
+}
+.scene:hover{  
+  transform: scale(1.05);  
+}
+.student-card:hover{
+  background-color:rgba(34, 30, 31, 0.9) ;
 }
 .card__face {
   position: absolute;
@@ -160,6 +167,10 @@ h2 {
 }
 .card__face--back {
   transform: rotateY( 180deg );
+}
+.card-backface-color{
+  background-color:rgba(34, 30, 31, 0.9) ;
+
 }
 .card.is-flipped {
   transform: rotateY(-180deg);
@@ -260,4 +271,26 @@ padding: 5px;
     border: 1px solid rgba(34, 30, 31, .5);
     cursor: pointer;
   }
+
+  footer{
+    background-color: rgba(34, 30, 31, .5);
+    display: flex;
+    justify-content: center;   
+    height: 5vh;    
+  }
+  footer img{
+      height: 4vh;
+      filter: grayscale(80%);
+  }
+  footer img:nth-child(2) {
+    height: 3vh;
+    }
+
+    .footer-wrap{
+      width: 30vw;
+      display: flex;
+    justify-content: space-around;    
+    align-items: center;      
+    }
+    
  
