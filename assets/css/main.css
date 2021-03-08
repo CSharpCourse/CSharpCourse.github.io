@@ -50,7 +50,6 @@
   font-weight: normal;
   font-style : normal;
 }
-
 html { 	scroll-behavior: smooth;  }
 
 /* remove all browser margin/padding  */
@@ -72,6 +71,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 body {
   /* background: #bbd2c5; */
   /* background: -webkit-linear-gradient(to bottom, #536976, #bbd2c5);
@@ -92,6 +92,7 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
 .header-card {
   font-size: 2rem;
   width: 20vw;
@@ -100,7 +101,6 @@ body {
   background-color: rgba(34, 30, 31, .5);
   color: white;
 }
-
 a.header {
   text-decoration: none;
   width: fit-content;
@@ -111,16 +111,13 @@ a.header {
 .rounded-border {
   border-radius: 2%;
 }
-
 .boxshadow {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
 .Down-Arrow {
   display: flexbox;
   margin: auto auto 5vh;
 }
-
 .info-container {
   width: 98vw;
   display: flex;
@@ -168,6 +165,19 @@ vertical-align:middle;
   border-top: solid 1px grey;
 overflow: hidden;
 }
+img.turn {
+  position: absolute;
+  transform: translate(-32px,-20px);
+  width: 100px;
+  backface-visibility: hidden;
+}
+img.turnb {
+  position: absolute;
+  transform: translate(302px,-20px);
+  width: 100px;
+  backface-visibility: hidden;
+}
+
 #student-section {
   padding-top: 50px;
 }
@@ -226,7 +236,6 @@ h2 {
   width: 50px;
   margin: 10px 0;
 }
-
 .social-wrap {
   border-top: solid 1px grey;
   margin: 10px 30px;
@@ -236,25 +245,9 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
 }
+@media (max-width: 612px){
 
-img.turn {
-  position: absolute;
-  transform: translate(-32px,-20px);
-  width: 100px;
-  backface-visibility: hidden;
-}
-img.turnb {
-  position: absolute;
-  transform: translate(302px,-20px);
-  width: 100px;
-  backface-visibility: hidden;
-}
-
-  
-  @media (max-width: 612px){
-
-    .section-height {
-      height: fit-content;
-    }
+  .section-height {
+    height: fit-content;
   }
- 
+}
