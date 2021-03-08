@@ -126,6 +126,14 @@ overflow: hidden;
 .student-card {
   padding-top: 5px;
   background: rgba(34, 30, 31, 0.7);
+  /* border: 1px solid rgba(245,222,179,0); */
+  color: white;
+  height: 625px;
+}
+.student-cardb {
+  padding-top: 5px;
+  background: rgba(34, 30, 31, .0);
+  /* border: 1px solid rgba(245,222,179,0); */
   color: white;
   height: 625px;
 }
@@ -157,8 +165,8 @@ h2 {
   transform: scale(1.05);  
 }
 .student-card:hover{
-  /* background-color:rgba(34, 30, 31, 0.9) ; */
-  border: 1px solid wheat;
+    background-color:rgba(34, 30, 31, 0.9);
+    box-shadow: rgba(255, 255,255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 .card__face {
   position: absolute;
@@ -169,10 +177,7 @@ h2 {
 .card__face--back {
   transform: rotateY( 180deg );
 }
-.card-backface-color{
-  background-color:rgba(34, 30, 31, 0.9) ;
 
-}
 .card.is-flipped {
   transform: rotateY(-180deg);
 }
@@ -293,5 +298,3 @@ padding: 5px;
     justify-content: space-around;    
     align-items: center;      
     }
-    
- 
