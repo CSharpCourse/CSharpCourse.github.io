@@ -162,8 +162,8 @@ section .card-text {
 section .student-text {
   height: 240px;
 vertical-align:middle;
-  margin: 10px 0px 20px 0px;
-  padding: 20px 20px;
+  margin: 10px 30px;
+  padding: 10px 0px;
   text-align: left;
   border-top: solid 1px grey;
 overflow: hidden;
@@ -229,12 +229,12 @@ h2 {
 
 .social-wrap {
   border-top: solid 1px grey;
-  margin-top: 20px;
-  padding-top: 20px;
+  margin: 10px 30px;
+  padding: 10px 0px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 img.turn {
@@ -250,10 +250,7 @@ img.turnb {
   backface-visibility: hidden;
 }
 
-  .social-wrap {
-    flex-direction: row;
-    justify-content: space-around;
-  }
+  
   @media (max-width: 612px){
 
     .section-height {
