@@ -1,55 +1,5 @@
-@font-face {
-  font-family: 'source_code_proextralight';
-  src        : url('sourcecodepro-extralight-webfont.woff2') format('woff2'),
-      url('sourcecodepro-extralight-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style : normal;
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-}
-
-@font-face {
-  font-family: 'source_code_prolight';
-  src        : url('sourcecodepro-light-webfont.woff2') format('woff2'),
-      url('sourcecodepro-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style : normal;
-
-}
-
-@font-face {
-  font-family: 'source_code_proregular';
-  src        : url('sourcecodepro-regular-webfont.woff2') format('woff2'),
-      url('sourcecodepro-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style : normal;
-
-}
-
-@font-face {
-  font-family: 'source_code_prosemibold';
-  src        : url('sourcecodepro-semibold-webfont.woff2') format('woff2'),
-      url('sourcecodepro-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style : normal;
-
-}
-
-@font-face {
-  font-family: 'source_code_problack';
-  src        : url('sourcecodepro-black-webfont.woff2') format('woff2'),
-      url('sourcecodepro-black-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style : normal;
-
-}
-
-@font-face {
-  font-family: 'source_code_probold';
-  src        : url('sourcecodepro-bold-webfont.woff2') format('woff2'),
-      url('sourcecodepro-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style : normal;
-}
 html { 	scroll-behavior: smooth;  }
 
 /* remove all browser margin/padding  */
@@ -71,28 +21,22 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
 body {
-  /* background: #bbd2c5; */
-  /* background: -webkit-linear-gradient(to bottom, #536976, #bbd2c5);
-  background: linear-gradient(to bottom, #536976, #bbd2c5); */
+  font-size: 18px;
   background-image: url("../images/1657858.jpg");
   background-size:cover;
   background-position: bottom center;
-  /* background-repeat: repeat; */
   background-attachment: fixed;
-  font-family             : 'source_code_proregular';
+  font-family: 'Raleway', sans-serif;
   overflow: overlay;
 }
 .header-height {
   margin: auto;
-  width: 98vw;
   display: flex;
   flex-wrap:wrap;
   flex-direction: column;
   height: 100vh;
 }
-
 .header-card {
   font-size: 2rem;
   width: 20vw;
@@ -101,6 +45,7 @@ body {
   background-color: rgba(34, 30, 31, .5);
   color: white;
 }
+
 a.header {
   text-decoration: none;
   width: fit-content;
@@ -111,15 +56,18 @@ a.header {
 .rounded-border {
   border-radius: 2%;
 }
+
 .boxshadow {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
 .Down-Arrow {
   display: flexbox;
   margin: auto auto 5vh;
 }
+
 .info-container {
-  width: 98vw;
+  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -132,7 +80,7 @@ a.header {
   margin: 50px auto 0;
 }
 .card-img-top {
-  width: 35%;
+  width: 20%;
   display: block;
   margin: 60px auto 25px;
 }
@@ -165,19 +113,6 @@ vertical-align:middle;
   border-top: solid 1px grey;
 overflow: hidden;
 }
-img.turn {
-  position: absolute;
-  transform: translate(-32px,-20px);
-  width: 100px;
-  backface-visibility: hidden;
-}
-img.turnb {
-  position: absolute;
-  transform: translate(302px,-20px);
-  width: 100px;
-  backface-visibility: hidden;
-}
-
 #student-section {
   padding-top: 50px;
 }
@@ -236,6 +171,7 @@ h2 {
   width: 50px;
   margin: 10px 0;
 }
+
 .social-wrap {
   border-top: solid 1px grey;
   margin: 10px 30px;
@@ -245,9 +181,83 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
 }
-@media (max-width: 612px){
 
-  .section-height {
-    height: fit-content;
-  }
+img.turn {
+  position: absolute;
+  transform: translate(-32px,-20px);
+  width: 100px;
+  backface-visibility: hidden;
 }
+img.turnb {
+  position: absolute;
+  transform: translate(302px,-20px);
+  width: 100px;
+  backface-visibility: hidden;
+}
+
+  
+  @media (max-width: 612px){
+
+    .section-height {
+      height: fit-content;
+    }
+  }
+  .form-height {
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .form-card {
+    font-size: 2rem;
+    width: 30vw;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(34, 30, 31, .5);
+    color: white;
+  }
+  .form-control{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px 0;
+
+  }
+  #fs-frm-inputs{
+    border-top: 1px solid grey;
+    margin-top: 20px;
+  }
+  .form-control label{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    border: none;
+  }
+  .form-control input,textarea{
+    background: rgba(34, 30, 31, .5);
+color: white;
+border: none;
+resize: none;
+font-size: 1rem;
+padding: 5px;
+
+  }
+  .form-button{
+    background: rgba(34, 30, 31, .5);
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+    border: 1px solid rgba(34, 30, 31, 0);
+    
+    
+  }
+  .form-button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    border: 1px solid rgba(34, 30, 31, .5);
+    cursor: pointer;
+  }
+ 
