@@ -23,12 +23,21 @@ section, summary, time, mark, audio, video {
 }
 body {
   font-size: 18px;
+  background-color: #bdd6b6;
   background-image: url("../images/1657858.jpg");
   background-size:cover;
   background-position: bottom center;
   background-attachment: fixed;
   font-family: 'Raleway', sans-serif;
   overflow: overlay;
+}
+
+img.arrow-top {
+  z-index: 1000;
+  width: 50px;
+  position: fixed;
+  bottom: 50px; 
+  right: 50px;
 }
 .header-height {
   margin: auto;
@@ -40,13 +49,14 @@ body {
 .header-card {
   font-size: 2rem;
   width: 20vw;
+  min-width: 250px;
   margin: auto;
   padding: 50px;
   background-color: rgba(34, 30, 31, .6);
   color: white;
 }
 
-a.header {
+a{
   text-decoration: none;
   width: fit-content;
   color:#fff;
@@ -134,15 +144,33 @@ overflow: hidden;
   flex-direction: row;
   flex-wrap: wrap;
 }
+.students-card {
+  font-size: 2rem;
+  width: 20vw;
+  min-width: 250px;
+  margin: 0px auto 10vh auto ;
+  padding: 50px;
+  background-color: rgba(34, 30, 31, .6);
+  color: white;
+}
+.teachers-card {
+  font-size: 2rem;
+  width: 20vw;
+  min-width: 250px;
+  margin: 0px auto 10vh ;
+  padding: 50px;
+  background-color: rgba(34, 30, 31, .6);
+  color: white;
+}
 .student-card {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.75);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
   height: 650px;
 }
 .student-cardb {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.75);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
   height: 650px;
 }
@@ -210,7 +238,7 @@ h2 {
   transform: rotateY(-180deg);
 }
 .set-background {
-  background-color:rgba(34, 30, 31, 0.62);
+  background-color:rgba(34, 30, 31, 0.9);
 }
 .student {
   margin: auto;
@@ -249,6 +277,32 @@ img.turnb {
     .section-height {
       height: fit-content;
     }
+    .scene {
+      margin: 0 0px 5vh 0px;
+      width: 300px;
+      height: 700px;
+    }
+    .student-cardb {
+      padding-top: 0px;
+      height: 700px;
+    }
+    .student-card {
+      padding-top: 0px;
+        height: 700px;
+    }
+    section .student-text {
+      height: 340px;
+    vertical-align:middle;
+      margin: 20px 20px;
+      padding: 10px 0px;
+      text-align: left;
+      border-top: solid 1px grey;
+    overflow: hidden;
+    }
+    img.turnb {
+      transform: translate(223px,-0px);
+    }
+    
   }
   .form-height {
     margin: auto;
@@ -260,6 +314,7 @@ img.turnb {
   .form-card {
     font-size: 2rem;
     width: 30vw;
+    min-width: 280px;
     margin: auto;
     padding: 50px;
     background-color: rgba(34, 30, 31, .6);

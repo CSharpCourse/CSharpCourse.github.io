@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Deze Jobdag site is een van onze projecten van deze C# .Net cursus georganiseerd door Multimedi in opdracht van de VDAB; Onze groep voor dit project bestond uit Dries Maes, Ward Impe, Seba Kesteloot en Nick Van Royen" />
+  <meta name="description" content="Deze Jobdag site is een van onze projecten van deze C# .Net cursus georganiseerd door Multimedi in opdracht van de VDAB; onze groep voor dit project bestond uit Dries Maes, Ward Impe, Seba Kesteloot en Nick Van Royen." />
   <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
   <link href="./assets/css/main.css" rel="stylesheet">
   </link>
-  <title>Jobdag Website C# .Net Developers</title>
+  <title>Jobdag C# .Net Developers</title>
 </head>
 
 <body>
+  <a href="#back-top-top-btn" id="back-top-top-btn">
+      <img class="arrow-top" src="./assets/images/top.png"/>
+  </a>
+
   <!-- header -->
   <header class="header-height">
     <div class="header-card rounded-border boxshadow center">
@@ -73,10 +77,19 @@
         <img src="./assets/images/arrow.svg" class="img-arrow center" alt="Down-Arrow" /> </a>
     </div>
   </section>
-
-
   <!-- students section -->
   <section id="student-section">
+   <!-- header -->
+    <div class="students-card rounded-border boxshadow center">
+      <a href="#student-section">
+        <div>
+          <hr />
+          <h3>De Studenten</h3>
+          <hr />
+        </div>
+      </a>
+    </div>   
+
     <div class="container-students">
       <div class="students">
 
@@ -553,12 +566,16 @@
                   <h2 class="center-text">Simon Van Tittelboom</h2>
                   <div class="card-body">
                     <img src="./assets/images/avatars/Simon.png" class="student-img" alt="...">
-                    <p class="student-text">De opleiding wordt n tot junior mMotivatie speelt hier dan ook een heel
-                      grote
-                      rol. Alle
-                      cursisten werden vooraf gescreend, getest en bevraagd naar hun motivatie. Uit het ruime aanbod van
-                      meer
-                      dan 100 kandidaten zijn de bovenstaande cursisten geselecteerd.</p>
+
+
+
+                    <p class="student-text">Gebeten door de code.
+                      Vastgehouden door de debugger. Als junior C# developer blijf ik op
+                      eeuwige queeste naar kennis. Het creëeren van iets uit 'niets' en het
+                      creatieve proces dat gepaard gaat bij de ontwikkeling van applicaties
+                      geeft me de drive om mij telkens opnieuw volledig te gooien voor elk
+                      project. Klik door op deze link voor mijn contactgegevens!</p>
+
                   </div>
                 </div>
               </div>
@@ -625,6 +642,24 @@
           </div>
         </div>
         <!-- END Ward -->
+      </div>
+    </div>
+  </section>
+   <!-- header -->
+   <div id="teachers-section" class="teachers-card rounded-border boxshadow center">
+    <a href="#teachers-section">
+      <div>
+        <hr />
+        <h1>De Lesgevers</h1>
+        <hr />
+      </div>
+    </a>
+  </div>   
+         <!-- teachers section -->
+  <section >
+    <div class="container-students">
+      <div class="students">
+
         <!-- START Michiel -->
         <div class="student">
           <div class="scene">
@@ -748,42 +783,9 @@
       <img src="assets/images/Vlaanderen.png" alt="Vlaanderen logo" />
     </div>
   </footer>
-  <script>
-    let cards = document.querySelectorAll('.card');
-    cards.forEach((card) => {
-      card.addEventListener('click', () => {
-        card.classList.toggle('is-flipped');
-      });
-    });
-    var dict = [];
-    let cardFronts = document.querySelectorAll('.student-card');
-    let cardBacks = document.querySelectorAll('.student-cardb');
-    for (let index = 0; index < cardFronts.length; index++) {
-      dict.push({
-        key: cardFronts[index],
-        value: cardBacks[index],
-      });
-    }
-    dict.forEach(element => {
-      element.key.addEventListener('mouseover', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-      element.key.addEventListener('mouseout', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
 
-      element.value.addEventListener('mouseover', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-      element.value.addEventListener('mouseout', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-    });
-  </script>
+  <script src="main.js"></script>
+
 </body>
 
 </html>
