@@ -52,7 +52,16 @@ a.header {
   color:#fff;
   margin: auto;
 }
+.student-text img{
 
+  transition: 0.4s ease-in-out;
+
+}
+.student-text img:hover{
+  transform: scale(1.5) rotate(360deg);
+  
+  
+}
 .rounded-border {
   border-radius: 2%;
 }
@@ -106,6 +115,8 @@ section .card-text {
 }
 section .student-text {
   height: 260px;
+  
+
 vertical-align:middle;
   margin: 20px 20px;
   padding: 10px 0px;
@@ -170,8 +181,16 @@ h2 {
   margin: 0 10px 5vh 10px;
   transition: 0.2s ease-in-out;
 }
+.jens.scene{
+  transition: 2s ease-in-out;
+}
  .scene:hover{  
-  transform: scale(1.02);  
+  transform: scale(1.02) ;
+
+}
+.jens.scene:hover{  
+  transform: scale(0.2) rotate(3600deg);
+
 }
 
 .card__face {
