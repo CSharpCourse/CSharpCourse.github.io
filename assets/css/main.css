@@ -30,6 +30,13 @@ body {
   font-family: 'Raleway', sans-serif;
   overflow: overlay;
 }
+
+img.arrow-top {
+  width: 50px;
+  position: fixed;
+  bottom: 50px; 
+  right: 50px;
+}
 .header-height {
   margin: auto;
   display: flex;

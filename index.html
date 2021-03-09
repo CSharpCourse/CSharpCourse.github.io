@@ -13,6 +13,10 @@
 </head>
 
 <body>
+  <a href="#back-top-top-btn" id="back-top-top-btn">
+      <img class="arrow-top" src="./assets/images/top.png"/>
+  </a>
+
   <!-- header -->
   <header class="header-height">
     <div class="header-card rounded-border boxshadow center">
@@ -749,44 +753,7 @@
       <img src="assets/images/Vlaanderen.png" alt="Vlaanderen logo" />
     </div>
   </footer>
-  <script>
-    let cards = document.querySelectorAll('.card');
-    cards.forEach((card) => {
-      card.addEventListener('click', () => {
-        card.classList.toggle('is-flipped');
-      });
-    });
-    var dict = [];
-    let cardFronts = document.querySelectorAll('.student-card');
-    let cardBacks = document.querySelectorAll('.student-cardb');
-    for (let index = 0; index < cardFronts.length; index++) {
-
-      dict.push({
-        key: cardFronts[index],
-        value: cardBacks[index],
-      });
-
-    }
-    dict.forEach(element => {
-      element.key.addEventListener('mouseover', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-      element.key.addEventListener('mouseout', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-
-      element.value.addEventListener('mouseover', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-      element.value.addEventListener('mouseout', () => {
-        element.key.classList.toggle('set-background');
-        element.value.classList.toggle('set-background');
-      });
-    });
-  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
