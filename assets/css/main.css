@@ -151,13 +151,13 @@ overflow: hidden;
 }
 .student-card {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.62);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
   height: 650px;
 }
 .student-cardb {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.62);
+  background: rgba(34, 30, 31, 0.7);
   color: white;
   height: 650px;
 }
@@ -217,7 +217,7 @@ h2 {
   transform: rotateY(-180deg);
 }
 .set-background {
-  background-color:rgba(34, 30, 31, 0.75);
+  background-color:rgba(34, 30, 31, 0.9);
 }
 .student {
   margin: auto;
@@ -263,17 +263,12 @@ img.turnb {
     }
     .student-cardb {
       padding-top: 0px;
-      background: rgba(34, 30, 31, 0.62);
-      color: white;
       height: 700px;
     }
     .student-card {
       padding-top: 0px;
-      background: rgba(34, 30, 31, 0.62);
-      color: white;
-      height: 700px;
+        height: 700px;
     }
-    
     
   }
   .form-height {
