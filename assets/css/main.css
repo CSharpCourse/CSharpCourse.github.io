@@ -23,6 +23,7 @@ section, summary, time, mark, audio, video {
 }
 body {
   font-size: 18px;
+  background-color: #bdd6b6;
   background-image: url("../images/1657858.jpg");
   background-size:cover;
   background-position: bottom center;
@@ -32,6 +33,7 @@ body {
 }
 
 img.arrow-top {
+  z-index: 1000;
   width: 50px;
   position: fixed;
   bottom: 50px; 
@@ -277,6 +279,9 @@ img.turnb {
       text-align: left;
       border-top: solid 1px grey;
     overflow: hidden;
+    }
+    img.turnb {
+      transform: translate(223px,-0px);
     }
     
   }
