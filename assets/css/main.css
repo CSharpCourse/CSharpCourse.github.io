@@ -24,18 +24,14 @@ section, summary, time, mark, audio, video {
 body {
   font-size: 18px;
   background-color: #bdd6b6;
-  
+  background-image: url("../images/bg-nHD.jpg");
   background-size:cover;
   background-position: bottom center;
   background-attachment: fixed;
   font-family: 'Raleway', sans-serif;
   overflow: overlay;
 }
-@media screen and (max-width:800) { 
-  body {
-    background-image: url("../images/bg-nHD.jpg");
-  };
-}
+
 @media screen and (min-width:800) {
   body {
     background-image: url("../images/bg-1080.jpg");
@@ -43,7 +39,7 @@ body {
 }
 @media screen and (min-width : 2000px){
   body{
-    background-image: url("../images/main-bg-high.jfif");
+    background-image: url("../images/bg-4k.jpg");
   };
 }
 
