@@ -23,26 +23,29 @@ section, summary, time, mark, audio, video {
 }
 body {
   font-size: 18px;
-  background-color: #bdd6b6;
-  background-image: url("../images/bg-nHD.jpg");
   background-size:cover;
-  background-position: bottom center;
   background-attachment: fixed;
   font-family: 'Raleway', sans-serif;
   overflow: overlay;
 }
-
-@media screen and (min-width:800) {
+@media screen and (max-width:800px) {
+  body {
+    background-image: url("../images/bg-nHD.jpg");
+    background-position: center;
+  }
+}
+@media screen and (min-width:801px) and (max-width:1999px) {
   body {
     background-image: url("../images/bg-1080.jpg");
+    background-position: bottom center;
   };
 }
 @media screen and (min-width : 2000px){
   body{
     background-image: url("../images/bg-4k.jpg");
+    background-position: bottom center;
   };
 }
-
 img.arrow-top {
   z-index: 1000;
   width: 50px;
