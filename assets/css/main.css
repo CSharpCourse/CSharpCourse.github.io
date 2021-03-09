@@ -47,6 +47,7 @@ img.arrow-top {
 .header-card {
   font-size: 2rem;
   width: 20vw;
+  min-width: 250px;
   margin: auto;
   padding: 50px;
   background-color: rgba(34, 30, 31, .6);
@@ -133,7 +134,8 @@ overflow: hidden;
 .students-card {
   font-size: 2rem;
   width: 20vw;
-  margin: 0px auto 10vh ;
+  min-width: 250px;
+  margin: 0px auto 10vh auto ;
   padding: 50px;
   background-color: rgba(34, 30, 31, .6);
   color: white;
@@ -141,6 +143,7 @@ overflow: hidden;
 .teachers-card {
   font-size: 2rem;
   width: 20vw;
+  min-width: 250px;
   margin: 0px auto 10vh ;
   padding: 50px;
   background-color: rgba(34, 30, 31, .6);
@@ -253,6 +256,25 @@ img.turnb {
     .section-height {
       height: fit-content;
     }
+    .scene {
+      margin: 0 0px 5vh 0px;
+      width: 300px;
+      height: 700px;
+    }
+    .student-cardb {
+      padding-top: 0px;
+      background: rgba(34, 30, 31, 0.62);
+      color: white;
+      height: 700px;
+    }
+    .student-card {
+      padding-top: 0px;
+      background: rgba(34, 30, 31, 0.62);
+      color: white;
+      height: 700px;
+    }
+    
+    
   }
   .form-height {
     margin: auto;
@@ -264,6 +286,7 @@ img.turnb {
   .form-card {
     font-size: 2rem;
     width: 30vw;
+    min-width: 280px;
     margin: auto;
     padding: 50px;
     background-color: rgba(34, 30, 31, .6);
