@@ -46,7 +46,7 @@ body {
   color: white;
 }
 
-a.header {
+a{
   text-decoration: none;
   width: fit-content;
   color:#fff;
@@ -123,15 +123,31 @@ overflow: hidden;
   flex-direction: row;
   flex-wrap: wrap;
 }
+.students-card {
+  font-size: 2rem;
+  width: 20vw;
+  margin: 0px auto 10vh ;
+  padding: 50px;
+  background-color: rgba(34, 30, 31, .6);
+  color: white;
+}
+.teachers-card {
+  font-size: 2rem;
+  width: 20vw;
+  margin: 0px auto 10vh ;
+  padding: 50px;
+  background-color: rgba(34, 30, 31, .6);
+  color: white;
+}
 .student-card {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.75);
+  background: rgba(34, 30, 31, 0.62);
   color: white;
   height: 650px;
 }
 .student-cardb {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.75);
+  background: rgba(34, 30, 31, 0.62);
   color: white;
   height: 650px;
 }
@@ -191,7 +207,7 @@ h2 {
   transform: rotateY(-180deg);
 }
 .set-background {
-  background-color:rgba(34, 30, 31, 0.62);
+  background-color:rgba(34, 30, 31, 0.75);
 }
 .student {
   margin: auto;
