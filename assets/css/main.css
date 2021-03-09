@@ -105,7 +105,7 @@ section .card-text {
   border-top: solid 1px grey;
 }
 section .student-text {
-  height: 240px;
+  height: 260px;
 vertical-align:middle;
   margin: 20px 20px;
   padding: 10px 0px;
@@ -125,23 +125,32 @@ overflow: hidden;
 }
 .student-card {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.6);
+  background: rgba(34, 30, 31, 0.75);
   color: white;
   height: 650px;
 }
 .student-cardb {
   padding-top: 0px;
-  background: rgba(34, 30, 31, 0.9);
+  background: rgba(34, 30, 31, 0.75);
   color: white;
   height: 650px;
 }
 .student-img {
   width: 70%;
   display: block;
-  margin: 40px auto 5px;
+  margin: 10px auto 5px;
   border-radius: 10% 10% 10% 50%;
 }
+p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+p.Michiel {
+  line-height: 1.rem;
+
+}
 h2 {
+  padding-top: 10px;
   font-size: 1.5rem;
   margin-block-start: 0em;
     margin-block-end: 0em;
@@ -182,7 +191,7 @@ h2 {
   transform: rotateY(-180deg);
 }
 .set-background {
-  background-color:rgba(34, 30, 31, 0.9);
+  background-color:rgba(34, 30, 31, 0.62);
 }
 .student {
   margin: auto;
