@@ -188,8 +188,7 @@ section .card-text {
 #teachers-section h3 {
   border-bottom: solid 1px grey;
   padding-bottom: 15px;
-  
-}
+  }
 section .student-text {
   height: 260px;
   
@@ -215,7 +214,7 @@ overflow: hidden;
 .teachers {
   width: 90vw;  
   display: flex;
-  /* margin:auto; */
+  margin:auto;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
