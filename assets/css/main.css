@@ -30,10 +30,10 @@ body {
 }
 @media screen and (max-width:800px) {
   body {
-    background-image: url("../images/bg-nHD.jpg");
     
+    background-image: url("../images/bg-nHD.jpg");
     background-position: bottom center;
-    min-height: 100%;
+    
 
   }
 }
@@ -49,6 +49,7 @@ body {
     background-position: bottom center;
   };
 }
+
 img.arrow-top {
   z-index: 1000;
   width: 50px;
@@ -232,17 +233,17 @@ h2 {
   margin: 0 10px 5vh 10px;
   transition: 0.2s ease-in-out;
 }
-.jens.scene{
-  transition: 2s ease-in-out;
-}
- .scene:hover{  
-  transform: scale(1.02) ;
+.scene:hover{  
+ transform: scale(1.02) ;
 
+}
+
+/* .jens.scene{
+  transition: 2s ease-in-out;
 }
 .jens.scene:hover{  
   transform: scale(0.2) rotate(3600deg);
-
-}
+} */
 
 .card__face {
   position: absolute;
