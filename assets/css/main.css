@@ -152,7 +152,7 @@ margin-left: 20px;
 
 .d-flex {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 
 }
 
@@ -197,6 +197,14 @@ overflow: hidden;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.teachers {
+  width: 90vw;  
+  display: flex;
+  margin:auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .students-card {
   font-size: 2rem;
@@ -298,14 +306,7 @@ h2 {
   margin: auto;
   
 }
-.teacher-one {
-  margin-left: auto;
-margin-right: 30px;
-}
-.teacher-two {
-  margin-right: auto;
-  margin-left: 30px;
-}
+
 .social-icons {
   width: 50px;
   margin: 10px 0;
@@ -351,6 +352,14 @@ img.turnb {
   backface-visibility: hidden;
 }
 
+@media(max-width: 1178px){
+  #info-section{
+    height: fit-content;
+    }
+    .Down-Arrow{
+      display: none;
+    }
+  } 
   
   @media (max-width: 612px){
 
