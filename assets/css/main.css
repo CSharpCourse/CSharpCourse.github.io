@@ -31,7 +31,8 @@ body {
 @media screen and (max-width:800px) {
   body {
     background-image: url("../images/bg-nHD.jpg");
-    background-position: center;
+      
+    background-position: 0 50px !important;
   }
 }
 @media screen and (min-width:801px) and (max-width:1999px) {
