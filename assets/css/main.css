@@ -31,10 +31,7 @@ body {
 @media screen and (max-width:800px) {
   body {
     background-image: url("../images/bg-nHD.jpg");
-    background-size: contain !important;
-    background-position: bottom;
     
-    min-height: 100%;
 
 
   }
