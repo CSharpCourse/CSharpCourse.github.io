@@ -32,7 +32,8 @@ body {
   body {
     background-image: url("../images/bg-nHD.jpg");
     
-
+    background-position: bottom center;
+    min-height: 100%;
 
   }
 }
