@@ -188,8 +188,7 @@ section .card-text {
 #teachers-section h3 {
   border-bottom: solid 1px grey;
   padding-bottom: 15px;
-  
-}
+  }
 section .student-text {
   height: 260px;
   
@@ -215,11 +214,16 @@ overflow: hidden;
 .teachers {
   width: 90vw;  
   display: flex;
-  /* margin:auto; */
+  margin:auto;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
+.teachers .scene {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .students-card {
   font-size: 2rem;
   width: 20vw;
@@ -260,15 +264,12 @@ p {
   font-size: 1.1rem;
   line-height: 1.6rem;
 }
-p.Michiel {
-  line-height: 1.3rem;
 
-}
 h2 {
   padding-top: 10px;
   font-size: 1.5rem;
   margin-block-start: 0em;
-    margin-block-end: 0em;
+  margin-block-end: 0em;
 }
 .card {
   width: 100%;
@@ -317,7 +318,7 @@ h2 {
   background-color:rgba(34, 30, 31, 0.9);
 }
 .student {
-  margin: auto;
+  margin: 10px auto auto auto;
   
 }
 
