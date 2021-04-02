@@ -291,12 +291,12 @@ h2 {
 
 }
 
- /* .jens.scene{
+  .jens.scene{
   transition: 2s ease-in-out;
 }
 .jens.scene:hover{  
   transform: scale(0.2) rotate(3600deg);
-}  */
+}  
 
 .card__face {
   position: absolute;
