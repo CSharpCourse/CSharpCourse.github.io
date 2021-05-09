@@ -292,10 +292,10 @@ h2 {
 }
 
   .jens.scene{
-  transition: 2s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 .jens.scene:hover{  
-  transform: scale(0.2) rotate(3600deg);
+  transform: scale(0.7) rotate(360deg);
 }  
 
 .card__face {
@@ -403,6 +403,7 @@ img.turnb {
       border-top: solid 1px grey;
     overflow: hidden;
     }
+    
     img.turnb {
       transform: translate(223px,-0px);
     }
